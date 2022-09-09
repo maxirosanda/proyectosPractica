@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,QAAQ,EAAE,QAAQ;CACrB;;AAED,AAAA,mBAAmB,CAAC;EAChB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;CAOT;;AATD,AAII,mBAJe,CAIf,EAAE,CAAA;EACE,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "../../src/scss/presentacion.scss"
+    ],
+    "names": [],
+    "file": "presentacion.css"
+}

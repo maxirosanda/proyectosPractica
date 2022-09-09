@@ -1,6 +1,14 @@
 @import "variables";
+@import "presentacion";
+@import "masvendidos";
+@import "responsive";
+
 *{
     color: $colorTexto;
+}
+
+.container-fluid{
+    padding: 0;
 }
 
 .navegador{
@@ -37,10 +45,34 @@
         li{
             padding: 10px;
             font-size: 16px;
+
+            a{
+                text-decoration: none;
+                color: $colorTexto;
+            }
         }
     }
 }
 
 }
+.logo{
+    width: 92px;
+}
+.buscador {
+    input {
+        border-radius:  5px 0 0 5px;
+        border: solid 1px $colorTexto;
+        border-right: 0;
+        outline: none;
+    }
+    button{
+       border: solid 1px $colorTexto;
+       border-left: 0;
+       border-radius:  0 5px 5px 0;
+       background-color: white;
+       position: relative;
+       left: -5px;
+    }
 
+}
 

@@ -1,0 +1,45 @@
+@media(max-width:1200px){
+
+    .presentacion-texto {
+  
+        h1{
+            font-size: 66px;
+        }
+    }
+}
+
+@media(max-width:768px){
+
+    .presentacion-texto {
+  
+        h1{
+            font-size: 44px;
+        }
+    }
+}
+
+
+@media(max-width:576px){
+    .buscador {
+
+        input {
+            width: 250px;
+        }
+}
+.presentacion{
+    
+    video{
+        display: none;
+    }
+}
+
+.presentacion-texto {
+    position: static;
+    height: auto;
+    h1{
+        margin-top: 20px;
+        position: static;
+        color: $colorTexto;
+    }
+}
+}

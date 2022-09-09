@@ -1,0 +1,15 @@
+.presentacion {
+  position: relative;
+}
+
+.presentacion-texto {
+  position: absolute;
+  top: 0;
+}
+
+.presentacion-texto h1 {
+  color: white;
+  font-size: 88px;
+  text-align: center;
+}
+/*# sourceMappingURL=presentacion.css.map */

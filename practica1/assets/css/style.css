@@ -1,5 +1,78 @@
+.presentacion {
+  position: relative;
+}
+
+.presentacion-texto {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.presentacion-texto h1 {
+  color: white;
+  font-size: 88px;
+  text-align: center;
+}
+
+.masVedidos {
+  margin-top: 30px;
+}
+
+.masVedidos h2 {
+  width: auto;
+  text-align: center;
+  border-bottom: 3px solid #e7bc3d;
+  padding-bottom: 10px;
+}
+
+.subtitulo {
+  color: #585757;
+  margin: 0 auto 40px;
+  border-bottom: 2px solid #ed6f17;
+  padding-bottom: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .presentacion-texto h1 {
+    font-size: 66px;
+  }
+}
+
+@media (max-width: 768px) {
+  .presentacion-texto h1 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 576px) {
+  .buscador input {
+    width: 250px;
+  }
+  .presentacion video {
+    display: none;
+  }
+  .presentacion-texto {
+    position: static;
+    height: auto;
+  }
+  .presentacion-texto h1 {
+    margin-top: 20px;
+    position: static;
+    color: #697688;
+  }
+}
+
 * {
   color: #697688;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .navegador .navegadorIcono {
@@ -36,5 +109,30 @@
 .navegador .navegadorMenu ul li {
   padding: 10px;
   font-size: 16px;
+}
+
+.navegador .navegadorMenu ul li a {
+  text-decoration: none;
+  color: #697688;
+}
+
+.logo {
+  width: 92px;
+}
+
+.buscador input {
+  border-radius: 5px 0 0 5px;
+  border: solid 1px #697688;
+  border-right: 0;
+  outline: none;
+}
+
+.buscador button {
+  border: solid 1px #697688;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  position: relative;
+  left: -5px;
 }
 /*# sourceMappingURL=style.css.map */
